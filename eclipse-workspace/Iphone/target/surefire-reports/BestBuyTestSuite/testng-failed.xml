@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BestBuyTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="iPhone13Test(failed)" verbose="0">
+    <parameter name="searchText" value="Iphone 13"/>
+    <classes>
+      <class name="MyRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- MyRunner.TestRunner -->
+    </classes>
+  </test> <!-- iPhone13Test(failed) -->
+  <test thread-count="5" name="iPhone12Test(failed)" verbose="0">
+    <parameter name="searchText" value="iphone 12"/>
+    <classes>
+      <class name="MyRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- MyRunner.TestRunner -->
+    </classes>
+  </test> <!-- iPhone12Test(failed) -->
+</suite> <!-- Failed suite [BestBuyTestSuite] -->

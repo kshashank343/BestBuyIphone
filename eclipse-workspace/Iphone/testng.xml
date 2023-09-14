@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BestBuyTestSuite">
+    <test name="iPhone13Test">
+        <parameter name="searchText" value="Iphone 13"/>
+        <classes>
+            <class name="MyRunner.TestRunner"/>
+        </classes>
+    </test>
+    <test name="iPhone12Test">
+        <parameter name="searchText" value="iphone 12"/>
+        <classes>
+            <class name="MyRunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
